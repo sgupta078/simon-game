@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(12, 20, 46);
+}
+
+.game-over{
+    background-color: red;
+    opacity: 0.8;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5%;
+    color: #ffff;
+    font-size: 3vw;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container{
+    margin: auto;
+    margin-top: 50px;
+    width: fit-content;
+}
+
+.row{
+    display: flex;
+
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border: 10px solid black;
+    border-radius: 100px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.pink{
+    background-color: rgb(255, 0, 191);
+}
+
+.pressed {
+    box-shadow: 0 0 30px white;
+    background-color: grey;
+}
+
+.selected{
+    opacity: 0.3;
+    box-shadow: 0 0 15px white;
+}
+
+
+.signature{
+    margin-top: 1.5rem;
+    font-size: 120%;
+    color: white;
+    text-align: center;
+}
